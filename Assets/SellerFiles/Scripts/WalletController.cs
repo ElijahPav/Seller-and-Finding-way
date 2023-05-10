@@ -14,7 +14,7 @@ public class WalletController : MonoBehaviour
         amountText.text = amount.ToString();
     }
 
-    public void AddÑurrency(int value)
+    public void AddCurrency(int value)
     {
         if (value > 0)
         {

@@ -47,7 +47,7 @@ public class Inventory : MonoBehaviour
 
     public void SellItem(Item item)
     {
-        _walletController.AddСurrency(item.CurrentPrice);
+        _walletController.AddCurrency(item.CurrentPrice);
         _items.Remove(item);
     }
 }
